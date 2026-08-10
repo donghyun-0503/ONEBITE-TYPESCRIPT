@@ -1,0 +1,18 @@
+// object
+// 구조적 타입 시스템 (Property Based Type System)
+// 타입 리터럴 문법
+let user: {
+  id?: number; // 선택적 프로퍼티
+  name: string;
+} = {
+  id: 1,
+  name: "이정환",
+};
+
+let config: {
+  readonly apiKey: string;
+} = {
+  apiKey: "My Api Key",
+};
+
+// config.apiKey = "hacked";
