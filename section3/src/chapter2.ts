@@ -14,7 +14,7 @@ function unknownExam() {
   // let bool: boolean = unknownVar;
 }
 
-//Never 타입 (공집합)
+//Never 타입(공집합)
 
 function neverExam() {
   function neverFunc(): never {
