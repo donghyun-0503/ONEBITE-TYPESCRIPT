@@ -32,7 +32,7 @@ let union3: Union1 = {
 //   name: "",
 // };
 
-// 2. 교집합 타입 (intersection 타입)
+// 2. 교집합 타입(intersection 타입)
 let variable: number & string;
 
 type Dog = {
