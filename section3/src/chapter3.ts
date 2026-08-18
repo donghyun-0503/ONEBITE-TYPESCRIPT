@@ -61,7 +61,7 @@ book = programmingBook;
 let book2: Book = {
   name: "한 입 크기로 잘라먹는 리액트",
   price: 33000,
-  // skill: "reactJs",
+  // skill: "ReactJs",
 };
 
 let book3: Book = programmingBook;
@@ -70,7 +70,7 @@ function func(book: Book) {
   func({
     name: "한 입 크기로 잘라먹는 리액트",
     price: 33000,
-    // skill: "reactJs",
+    // skill: "ReactJs",
   });
 }
 func(programmingBook);
