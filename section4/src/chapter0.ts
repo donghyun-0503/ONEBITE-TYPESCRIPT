@@ -16,7 +16,7 @@ const add = (a: number, b: number): number => a + b;
 function introduce(name: "이정환", age: number, tall?: number) {
   console.log(`name: ${name}`);
   if (typeof tall === "number") {
-    console.log(`tall: ${tall + 5}`);
+    console.log(`tall: ${tall + 10}`);
   }
 }
 
