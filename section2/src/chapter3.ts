@@ -12,7 +12,7 @@ let user: {
 let config: {
   readonly apiKey: string;
 } = {
-  apiKey: "My Api Key",
+  apiKey: "MY API KEY",
 };
 
 // config.apiKey = "hacked";
