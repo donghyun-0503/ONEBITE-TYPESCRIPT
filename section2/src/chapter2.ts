@@ -11,7 +11,7 @@ let multiArr: (number | string)[] = [1, "hello"];
 // 다차원 배열의 타입을 정의하는 방법
 let doubleArr: number[][] = [
   [1, 2, 3],
-  [4, 5],
+  [4, 5, 6],
 ];
 
 // 튜플
