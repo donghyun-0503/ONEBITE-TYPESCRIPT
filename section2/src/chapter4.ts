@@ -24,7 +24,7 @@ let user2: User = {
   name: "이아무개",
   nickname: "winter",
   bio: "안녕하세요",
-  location: "대구광역시",
+  location: "서울특별시",
 };
 
 // 인덱스 시그니처
