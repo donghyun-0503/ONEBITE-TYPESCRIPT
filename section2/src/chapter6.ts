@@ -2,7 +2,7 @@
 // 특정 변수의 타입을 우리가 확실히 모를때
 let anyVar: any = 10;
 
-let num: number = 10;
+let num: number = 11;
 num = anyVar;
 
 // unknown
