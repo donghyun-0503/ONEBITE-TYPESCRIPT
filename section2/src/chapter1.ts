@@ -11,8 +11,8 @@ let num7: number = NaN;
 
 // string
 let str1: string = "Hello";
-let str2: string = "World";
-let str3: string = `World`;
+let str2: string = "world";
+let str3: string = `world`;
 let str4: string = `hello ${num1}`;
 
 // boolean
