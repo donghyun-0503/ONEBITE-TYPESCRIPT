@@ -15,6 +15,7 @@ class Employee {
   age: number;
   position: string;
 
+  //생성자
   constructor(name: string, age: number, position: string) {
     this.name = name;
     this.age = age;
