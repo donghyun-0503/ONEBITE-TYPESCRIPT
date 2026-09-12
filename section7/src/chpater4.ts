@@ -16,9 +16,9 @@ class List<T> {
   }
 }
 
-const numberList = new List([1, 2, 3]);
+const numberList = new List([1, 2, 3, 4, 5]);
 numberList.pop();
-numberList.push(4);
+numberList.push(6);
 numberList.print();
 
 const stringList = new List(["1", "2"]);
