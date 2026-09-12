@@ -23,7 +23,7 @@ function getLength<T extends { length: number }>(data: T) {
   return data.length;
 }
 
-let var1 = getLength([1, 2, 3]);
+let var1 = getLength([1, 2, 3, 4]);
 
 let var2 = getLength("123456");
 
