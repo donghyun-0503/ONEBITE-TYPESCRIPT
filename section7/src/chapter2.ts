@@ -14,7 +14,7 @@ function map<T, U>(arr: T[], callback: (item: T) => U) {
 }
 
 map(arr, it => it * 2);
-map(["hi", "hello"], it => parseInt(it));
+map(["hi", "guys"], it => parseInt(it));
 
 // forEach 메서드
 
