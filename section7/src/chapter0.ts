@@ -6,7 +6,7 @@ function func<T>(value: T): T {
 }
 
 let num = func(10);
-// num.toUpperCase();
+// num.toUpperCase()
 
 if (typeof num === "number") {
   num.toFixed();
