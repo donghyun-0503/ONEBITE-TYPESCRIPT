@@ -69,7 +69,7 @@ interface User<T> {
 
 function goToSchool(user: User<Student>) {
   const school = user.profile.school;
-  console.log(`${school}로 등교 완료`);
+  console.log(`${school}로 등교`);
 }
 
 const developerUser: User<Developer> = {
