@@ -57,4 +57,3 @@ type B = Extract<number | string | boolean, string>;
 
 // 결과
 // string
-
